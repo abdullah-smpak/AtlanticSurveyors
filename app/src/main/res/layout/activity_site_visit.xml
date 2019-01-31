@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.abdullah.atlanticsurveyors.site_visit">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    app:srcCompat="@drawable/logo" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/Username"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle"
+                    android:textColor="#fff"
+                    android:gravity="center" />
+
+                <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                    android:id="@+id/sitelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@android:drawable/editbox_dropdown_light_frame"
+                    android:dropDownSelector="@drawable/buttonstyle"
+                    android:spinnerMode="dialog"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/sitein"
+                    android:layout_marginTop="35dp"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Site IN"
+                    android:background="@drawable/buttonstyle"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:drawableRight="@drawable/ic_first_page_black_24dp"/>
+
+                <Button
+                    android:id="@+id/logoutbtn"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exit"
+                    android:background="@drawable/logoutbuttonstyle"
+                    android:textColor="#fff"
+                    android:drawableRight="@drawable/ic_send_black_24dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

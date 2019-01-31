@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "860356432494",
+    "firebase_url": "https://atlanticsurveyors-e3d21.firebaseio.com",
+    "project_id": "atlanticsurveyors-e3d21",
+    "storage_bucket": "atlanticsurveyors-e3d21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860356432494:android:3b6d673268d47257",
+        "android_client_info": {
+          "package_name": "com.app.abdullah.atlanticsurveyors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860356432494-stshplsvc05u0446ug81la94pl8su1d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.abdullah.atlanticsurveyors",
+            "certificate_hash": "3e5cb9242c58459f68b4d5f59ce40c45556e158c"
+          }
+        },
+        {
+          "client_id": "860356432494-ola74p03dl1mc6fn4vlkat8lo4j96i8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5C6lp6NSTFPTqY98buR4W6IKYcHNbjfA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860356432494-ola74p03dl1mc6fn4vlkat8lo4j96i8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
